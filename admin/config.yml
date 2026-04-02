@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Ayarları"
+    files:
+      - label: "SEO ve Ana Sayfa"
+        name: "site_settings"
+        file: "content/site-settings.json"
+        format: "json"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Site Title", name: "title", widget: "string" }
+              - { label: "Meta Description", name: "description", widget: "text" }
+          - label: "Ana Sayfa Hero"
+            name: "home"
+            widget: "object"
+            fields:
+              - label: "Hero Alanı"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - { label: "Eyebrow EN", name: "eyebrow_en", widget: "string" }
+                  - { label: "Eyebrow AR", name: "eyebrow_ar", widget: "string" }
+                  - { label: "Eyebrow TR", name: "eyebrow_tr", widget: "string" }
+                  - { label: "Başlık EN", name: "title_en", widget: "text" }
+                  - { label: "Başlık AR", name: "title_ar", widget: "text" }
+                  - { label: "Başlık TR", name: "title_tr", widget: "text" }
+                  - { label: "Açıklama EN", name: "subtitle_en", widget: "text" }
+                  - { label: "Açıklama AR", name: "subtitle_ar", widget: "text" }
+                  - { label: "Açıklama TR", name: "subtitle_tr", widget: "text" }
+      - label: "İletişim Bilgileri"
+        name: "contact_settings"
+        file: "content/site-settings.json"
+        format: "json"
+        fields:
+          - label: "İletişim"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Giriş Yazısı EN", name: "intro_en", widget: "text" }
+              - { label: "Giriş Yazısı AR", name: "intro_ar", widget: "text" }
+              - { label: "Giriş Yazısı TR", name: "intro_tr", widget: "text" }
+              - { label: "Kuveyt Başlık", name: "whatsapp_kuwait_label", widget: "string" }
+              - { label: "Kuveyt WhatsApp URL", name: "whatsapp_kuwait_url", widget: "string" }
+              - { label: "Kuveyt Numara", name: "whatsapp_kuwait_text", widget: "string" }
+              - { label: "Türkiye Başlık", name: "whatsapp_turkey_label", widget: "string" }
+              - { label: "Türkiye WhatsApp URL", name: "whatsapp_turkey_url", widget: "string" }
+              - { label: "Türkiye Numara", name: "whatsapp_turkey_text", widget: "string" }
+              - { label: "Email Başlık", name: "email_label", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+
+  - name: "blogs"
+    label: "Bloglar"
+    files:
+      - label: "Blog Listesi"
+        name: "blog_list"
+        file: "content/blogs.json"
+        format: "json"
+        fields:
+          - label: "Bloglar"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Kategori", name: "cat", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "string" }
+              - { label: "Özet", name: "excerpt", widget: "text" }
+              - { label: "İçerik", name: "body", widget: "markdown" }

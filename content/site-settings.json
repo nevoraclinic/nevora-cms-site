@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "title": "Nevora Istanbul — Premium Hair Transplant | FUE & DHI",
+    "description": "World-class FUE & DHI hair transplant in Istanbul. Free consultation for patients from Kuwait, Saudi Arabia, UAE. VIP airport transfer & optional hotel arrangements."
+  },
+  "home": {
+    "hero": {
+      "eyebrow_en": "ISTANBUL'S PREMIUM HAIR CLINIC",
+      "eyebrow_ar": "عيادة الشعر المميزة في إسطنبول",
+      "eyebrow_tr": "İSTANBUL'UN PREMİUM SAÇ KLİNİĞİ",
+      "title_en": "Restore Your<br>Hair.<br><em>Reclaim Your Life.</em>",
+      "title_ar": "استعد شعرك.<br><em>استعد حياتك.</em>",
+      "title_tr": "Saçınızı Geri Kazanın,<br><em>Hayatınızı da.</em>",
+      "subtitle_en": "World-class FUE & DHI hair transplantation in Istanbul. Serving patients from Kuwait, UAE, Saudi Arabia and the Arab world. All-inclusive packages with VIP transfer & optional hotel arrangements.",
+      "subtitle_ar": "زراعة الشعر بتقنيات FUE و DHI في إسطنبول. نخدم مرضى من الكويت والإمارات والسعودية. نقل VIP من المطار وترتيبات إقامة اختيارية.",
+      "subtitle_tr": "İstanbul'da dünya standartlarında FUE ve DHI saç ekimi. Kuveyt, BAE, Suudi Arabistan'dan hastalara VIP transfer ve isteğe bağlı konaklama organizasyonu."
+    }
+  },
+  "contact": {
+    "intro_en": "Our Arabic-speaking team responds within 2 hours. Send your WhatsApp message anytime.",
+    "intro_ar": "يستجيب فريقنا الناطق بالعربية خلال ساعتين. أرسل رسالة واتساب في أي وقت.",
+    "intro_tr": "Ekibimiz 2 saat içinde yanıt verir. İstediğiniz zaman WhatsApp mesajı gönderin.",
+    "whatsapp_kuwait_label": "WHATSAPP (KUWAIT)",
+    "whatsapp_kuwait_url": "https://wa.me/96569621742",
+    "whatsapp_kuwait_text": "+965 6962 1742",
+    "whatsapp_turkey_label": "WHATSAPP (TURKEY)",
+    "whatsapp_turkey_url": "https://wa.me/905320622122",
+    "whatsapp_turkey_text": "+90 532 062 2122",
+    "email_label": "EMAIL",
+    "email": "info@nevora.com"
+  }
+}
